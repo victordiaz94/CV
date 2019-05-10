@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
+    <title>Víctor Manuel Bonifacio Díaz</title>
+    
+    <script src="smooth-scroll.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+
+	// Selectors
+	ignore: '[data-scroll-ignore]', // Selector for links to ignore (must be a valid CSS selector)
+	header: null, // Selector for fixed headers (must be a valid CSS selector)
+	topOnEmptyHash: true, // Scroll to the top of the page for links with href="#"
+
+	// Speed & Duration
+	speed: 500, // Integer. Amount of time in milliseconds it should take to scroll 1000px
+	speedAsDuration: false, // If true, use speed as the total duration of the scroll animation
+	durationMax: null, // Integer. The maximum amount of time the scroll animation should take
+	durationMin: null, // Integer. The minimum amount of time the scroll animation should take
+	clip: true, // If true, adjust scroll distance to prevent abrupt stops near the bottom of the page
+	offset: function (anchor, toggle) {
+
+		}
+
+	},
+
+	// Easing
+	easing: 'easeInOutCubic', // Easing pattern to use
+	customEasing: function (time) {
+
+		// Function. Custom easing pattern
+		// If this is set to anything other than null, will override the easing option above
+
+		// return <your formulate with time as a multiplier>
+
+		// Example: easeInOut Quad
+		return time < 0.5 ? 2 * time * time : -1 + (4 - 2 * time) * time;
+
+	},
+
+	// History
+	updateURL: true, // Update the URL on scroll
+	popstate: true, // Animate scrolling with the forward/backward browser buttons (requires updateURL to be true)
+
+	// Custom Events
+	emitEvents: true // Emit custom events
+
+});
+    </script>
+</head>
+<body>
+<!-- *******************EMPIEZA EL CONTENIDO************************ -->
+
+<div id="nav-menu">
+    <nav class="navbar navbar-expand-sm navbar-light fixed-top">
+       <a href="#" class="navbar-brand"><img src="imagenes/logo.png" alt=""></a>
+       
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#uno">
+            <span class="navbar-toggler-icon"></span>
+       </button>
+       
+       <div class="collapse navbar-collapse justify-content-end" id="uno">
+        <ul class="navbar-nav">
+        
+            <li class="nav-item"><a data-scroll href="#intro" class="nav-link font-weight-bold">¿Quién soy yo?</a></li>
+            <li class="nav-item"><a data-scroll href="#trabajos" class="nav-link font-weight-bold">Trabajos</a></li>
+            <li class="nav-item"><a data-scroll href="#footer" class="nav-link font-weight-bold">Contacto</a></li>
+        </ul>
+        </div>
+    </nav>
+</div>
+
+<div id="intro">
+
+</div>
+
+<div id="about">
+<div class="padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 text-center">
+                <h2 class="text-center font-weight-bold">Un gusto!</h2>
+                <h5 class="text-center font-weight-bold">Soy Víctor Díaz</h5>
+                <p class="lead text-left font-weight-bold">Mi estilo es aportar ideas. Mis proyectos
+ayudan al crecimiento de las marcas con el buen
+manejo de las redes en todos los medios digitales.</p>
+            </div>
+            <div class="col-sm-6">
+                <img class="yo" src="imagenes/img01.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div id="habilidades">
+<div class="padding">
+    <div class="container">
+        <div class="row">
+           <div class="col-sm-12 text-center">
+               <h4>Habilidades Técnicas</h4>
+           </div>
+            <div class="col-md-3 col-sm-12">
+              <img class="ai" src="imagenes/img02.png" alt="">
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <img class="ps" src="imagenes/img03.png" alt="">
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <img class="id" src="imagenes/img04.png" alt="">
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <img class="ae" src="imagenes/img05.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div id="franja01">
+</div>
+
+<div id="trabajos">
+<div class="padding">
+    <div class="container">
+        <div class="row">
+           <div class="col-sm-12 text-center">
+               <h1>UI/UX</h1>
+           </div>
+           
+            <div class="col-md-4 col-sm-12">
+             <button type="button" class="btn btn-photo" data-toggle="modal" data-target="#modal1">
+              <img class="plataforma" src="imagenes/img06.png" height="250px" style=" float:center;" alt="">
+            </button>
+              <br>
+              <img class="subway" src="imagenes/subway.png" height="50px" style=" float:center;" alt="">
+              <p class="text-left">Subway, es una cadena de restaurantes de comida rápida especializada en la elaboración de sándwich submarino. En donde se ha diseñado una nueva interfaz para pedir su orden al momento de visitar uno de sus restaurantes.</p>
+            </div>
+            <div class="col-md-4 col-sm-12">
+               <button type="button" class="btn btn-photo" data-toggle="modal" data-target="#modal2">
+                <img class="app" src="imagenes/img07.png" height="250px" style=" float:center;" alt="">
+                </button>
+                <br>
+                <img class="captureplace" src="imagenes/captureplace.png" height="50px" style=" float:center;" alt="">
+                <p class="text-left">Capture place, es una aplicación para diseñadores, comunicadores y fotografos, en donde puedan compartir a otros usuarios lugares en donde se pueden tomar fotografías, y puedan mostrar parte de su trabajo para así obtener una oportunidad de empleo.</p>
+            </div>
+            <div class="col-md-4 col-sm-12">
+               <button type="button" class="btn btn-photo" data-toggle="modal" data-target="#modal3">
+                <img class="web" src="imagenes/img08.png" height="250px" style=" float:center;" alt="">
+                </button>
+                <br>
+                <img class="kavira" src="imagenes/kavira.png" height="50px" style=" float:center;" alt="">
+                <p class="text-left">Es una tienda de ropa online, en donde la creación de su plataforma web fué lo primordial para la accesibilidad que se deseaba tener con sus clientes.</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div id="franja02">
+</div>
+
+<div class="modal fade" id="modal1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        
+            <div class="modal-header">
+                <h4 class="modal-tittle">Subway</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+            </div>
+            
+            <div class="modal-body">
+                <img src="imagenes/Layout_Subway.jpg" width="100%" alt="">
+            </div>
+            
+            <div class="modal-footer justify-content-md-center">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal2" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        
+            <div class="modal-header">
+                <h4 class="modal-tittle">Capture Place</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            
+            <div class="modal-body">
+                <img src="imagenes/Layout_Captureplace.jpg" width="100%" alt="">
+            </div>
+            
+            <div class="modal-footer justify-content-md-center">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modal3" role="dialog">
+    <div class="modal-dialog">
+        <div class=" modal-content">
+        
+            <div class="modal-header">
+                <h4 class="modal-tittle">Kavira</h4>
+                <button id="botoncierre" type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            
+            <div class="modal-body">
+                <img src="imagenes/Layout_kavira.jpg" width="100%" alt="">
+            </div>
+            
+            <div class="modal-footer justify-content-md-center">
+                <button  type="button" class="btn btn-danger" data-dismiss="modal3">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="footer">
+<footer class="container-fluid text-center sm-inline">
+    <div class="row">
+        <div class="col-md-4">
+        
+        </div>
+        <div class="col-md-4">
+            <h3>Contacto</h3>
+           <a href="mailto:victordiaz.dg@gmail.com"> <img class="correo" src="imagenes/img09.png" alt=""></a>
+            
+            <a href="https://www.facebook.com/victormbdiaz">
+            <img class="facebook ro" src="imagenes/img10.png" alt=""></a>
+            
+            <a href="https://www.linkedin.com/in/v%C3%ADctor-d%C3%ADaz-9728a1173/">
+            <img class="linkedin" src="imagenes/img11.png" alt=""></a>
+            
+            <a href="https://www.behance.net/victordiaz1774">
+            <img class="behance" src="imagenes/img12.png" alt=""></a>            
+        </div>
+        <div class="col-md-4">
+        
+        </div>
+    </div>
+</footer>
+</div>
+
+<!-- *******************TERMINA EL CONTENIDO************************ -->
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>    
+
+</body>
+</html>

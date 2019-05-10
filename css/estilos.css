@@ -1,0 +1,167 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #eeeeee;
+    padding: 0.5% 25px;
+    font-size: 1.2em;
+}
+
+#intro { 
+    background: url(../imagenes/fondo01a.png) no-repeat center center;
+    height: 50%;
+    margin-top: 80px;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+#about {
+    background-color: #103049;
+    padding: 40px 0;
+}
+
+.yo {
+  display: block;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#about h2 {
+    font-size: 80px;
+    color: #fecd06;
+}
+
+#about h5 {
+    font-size: 25px;
+    color: white;
+    padding-left: 160px;
+}
+
+#about p {
+    font-size: 18px;
+    padding-top: 20px;
+    color: white
+    
+}
+
+#habilidades {
+    background-color: #103049;
+    padding: 20px 0;
+}
+
+#habilidades h4 {
+    font-size: 40px;
+    color: #fecd06;
+    padding-bottom: 20px;
+}
+
+.ai {
+    display: block;
+    margin: 10px auto;
+}
+
+.ps {
+    display: block;
+    margin: 10px auto;
+}
+
+.id {
+    display: block;
+    margin: 10px auto;
+}
+
+.ae {
+    display: block;
+    margin: 10px auto;
+}
+
+#franja01 {
+    background-color: #fecd06;
+    padding: 5px 0;
+}
+
+#trabajos {
+    background-color: white;
+}
+
+#trabajos h1 {
+    color: #103049;
+    padding: 15px;
+}
+
+.plataforma {
+    display: block;
+    margin: 5px 25px;
+}
+
+.subway {
+    display: block;
+    margin: 5px auto;
+}
+
+.app {
+    display: block;
+    margin: 5px 25px;
+}
+
+.captureplace {
+     display: block;
+    margin: 5px auto;
+    padding-bottom: 12px;
+}
+
+.web {
+     display: block;
+    margin: 5px 25px;
+}
+
+.kavira {
+     display: block;
+    margin: 5px auto;
+    padding-bottom: 2px;
+}
+
+#trabajos p {
+    padding-top: 10px
+}
+
+#franja02 {
+    background-color: #fecd06;
+    padding: 5px 0;
+}
+
+footer{
+    background-color: #103049; 
+    padding-bottom: 15px;
+}
+
+footer h3 {
+    color: #fecd06;
+    font-size: 35px;
+    padding: 5px ;
+}
+
+.correo {
+    padding-right: 10px;
+}
+
+.facebook {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.linkedin {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.behance {
+    padding-left: 10px;
+}
+
